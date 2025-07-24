@@ -27,7 +27,7 @@
         </div>
     </nav>
     
-    <div class="d-flex align-items-center gap-5 mt-2 ms-3">
+    <div class="d-flex align-items-center gap-5 mt-2 ms-2">
         <h1>Dashboard</h1>
         <p class="d-none d-md-inline">
             <a href="#">Home</a> / Dashboard
@@ -51,7 +51,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Active Users</h5>
                     <p class="card-text">9852</p>
-                    <a href="#" class="btn btn-primary">Show Users</a>
+                    <a href="#users" class="btn btn-primary">Show Users</a>
                 </div>
             </div>
         </div>
@@ -61,9 +61,378 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Pending Approvals</h5>
                     <p class="card-text">237</p>
-                    <a href="#" class="btn btn-primary">Show Users</a>
+                    <a href="#users" class="btn btn-primary">Show Users</a>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mx-2" id="users">
+        <h2>Users</h2>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">User ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Role</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>mark@gmail.com</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jane</td>
+                        <td>jane.doe@example.com</td>
+                        <td>User</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Alex</td>
+                        <td>alex22@mail.com</td>
+                        <td>Moderator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Chris</td>
+                        <td>chris_watson@site.org</td>
+                        <td>User</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Emily</td>
+                        <td>emily93@gmail.com</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>John</td>
+                        <td>johnnyboy@mail.com</td>
+                        <td>User</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Linda</td>
+                        <td>linda.kim@web.com</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Michael</td>
+                        <td>mike.hunt@server.com</td>
+                        <td>Moderator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Rachel</td>
+                        <td>rach_lee@gmail.com</td>
+                        <td>User</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>Steve</td>
+                        <td>steve_boss@corp.org</td>
+                        <td>Administrator</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td>Nina</td>
+                        <td>nina34@mail.com</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td>Paul</td>
+                        <td>paul_walker@live.com</td>
+                        <td>Moderator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13</th>
+                        <td>Kate</td>
+                        <td>kate.green@web.net</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">14</th>
+                        <td>Harry</td>
+                        <td>harry.potter@hogwarts.com</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15</th>
+                        <td>Susan</td>
+                        <td>sue_q@example.org</td>
+                        <td>User</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16</th>
+                        <td>Tom</td>
+                        <td>tommy@mail.org</td>
+                        <td>User</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">17</th>
+                        <td>Lara</td>
+                        <td>lara.jones@gmail.com</td>
+                        <td>Moderator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18</th>
+                        <td>Oscar</td>
+                        <td>oscar.thegrouch@trash.net</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19</th>
+                        <td>Ivy</td>
+                        <td>ivy.ray@live.com</td>
+                        <td>Administrator</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20</th>
+                        <td>Robert</td>
+                        <td>robert_king@mail.com</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21</th>
+                        <td>Grace</td>
+                        <td>grace.white@example.com</td>
+                        <td>Moderator</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">22</th>
+                        <td>Kevin</td>
+                        <td>kevin_lee@domain.com</td>
+                        <td>User</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">23</th>
+                        <td>Jasmine</td>
+                        <td>jas.smith@mail.org</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">24</th>
+                        <td>George</td>
+                        <td>george91@net.org</td>
+                        <td>User</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">25</th>
+                        <td>Amber</td>
+                        <td>amber_flo@web.com</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">26</th>
+                        <td>Tim</td>
+                        <td>tim.cook@apple.com</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">27</th>
+                        <td>Olivia</td>
+                        <td>olivia_w@yahoo.com</td>
+                        <td>User</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">28</th>
+                        <td>Dan</td>
+                        <td>dan.ross@site.net</td>
+                        <td>Moderator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">29</th>
+                        <td>Betty</td>
+                        <td>betty_bo@mail.com</td>
+                        <td>User</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">30</th>
+                        <td>Bruce</td>
+                        <td>bruce.wayne@batmail.com</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">31</th>
+                        <td>Anna</td>
+                        <td>anna_m@school.edu</td>
+                        <td>User</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">32</th>
+                        <td>Ryan</td>
+                        <td>ryan_fox@web.org</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">33</th>
+                        <td>Sophia</td>
+                        <td>sophia.grace@outlook.com</td>
+                        <td>Moderator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">34</th>
+                        <td>Victor</td>
+                        <td>vic_vic@mail.net</td>
+                        <td>User</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">35</th>
+                        <td>Ella</td>
+                        <td>ella.brown@gmail.com</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">36</th>
+                        <td>Jack</td>
+                        <td>jack.sparrow@pirates.org</td>
+                        <td>Administrator</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">37</th>
+                        <td>Chloe</td>
+                        <td>chloe.daniels@webmail.com</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">38</th>
+                        <td>Gary</td>
+                        <td>gary.oak@poke.net</td>
+                        <td>Moderator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">39</th>
+                        <td>Mia</td>
+                        <td>mia23@live.com</td>
+                        <td>User</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">40</th>
+                        <td>Leon</td>
+                        <td>leon_kennedy@racoon.org</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">41</th>
+                        <td>Haley</td>
+                        <td>haley.star@web.net</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">42</th>
+                        <td>Jeff</td>
+                        <td>jeff.bezos@space.org</td>
+                        <td>Moderator</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">43</th>
+                        <td>Daisy</td>
+                        <td>daisy_d@mail.org</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">44</th>
+                        <td>Fred</td>
+                        <td>fred_flint@stone.com</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">45</th>
+                        <td>Melanie</td>
+                        <td>melanie_b@server.com</td>
+                        <td>User</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">46</th>
+                        <td>Arnold</td>
+                        <td>arnold_s@muscle.com</td>
+                        <td>Moderator</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">47</th>
+                        <td>Jill</td>
+                        <td>jill_valentine@stars.com</td>
+                        <td>User</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">48</th>
+                        <td>Nathan</td>
+                        <td>nathan.drake@advent.com</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">49</th>
+                        <td>Amy</td>
+                        <td>amy_wong@planetexpress.com</td>
+                        <td>User</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">50</th>
+                        <td>Peter</td>
+                        <td>peter.parker@dailybugle.com</td>
+                        <td>Administrator</td>
+                        <td>Active</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
     
