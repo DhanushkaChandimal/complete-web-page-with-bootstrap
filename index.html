@@ -41,7 +41,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Total Users</h5>
                     <p class="card-text">10512</p>
-                    <a href="#" class="btn btn-primary">Add User</a>
+                    <a href="#add-user" class="btn btn-primary">Add User</a>
                 </div>
             </div>
         </div>
@@ -67,6 +67,30 @@
         </div>
     </div>
 
+    <h2 class="mt-5 mx-2" id="add-user">Register a new User</h2>
+    <form class="mx-2 border p-4 shadow-sm bg-light needs-validation" novalidate>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+            <label for="floatingInput">Full Name</label>
+        </div>
+        <div class="invalid-feedback">
+            Please choose a username.
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <select class="form-select mb-3">
+            <option selected>Select Role</option>
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+            <option value="guest">Guest</option>
+        </select>
+        <div class="d-grid gap-2 col-sm-4">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+
     <div class="container mt-5 mx-2" id="users">
         <h2>Users</h2>
         <div class="table-responsive">
@@ -85,7 +109,7 @@
                         <th scope="row">1</th>
                         <td>Mark</td>
                         <td>mark@gmail.com</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -99,7 +123,7 @@
                         <th scope="row">3</th>
                         <td>Alex</td>
                         <td>alex22@mail.com</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -113,7 +137,7 @@
                         <th scope="row">5</th>
                         <td>Emily</td>
                         <td>emily93@gmail.com</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -134,7 +158,7 @@
                         <th scope="row">8</th>
                         <td>Michael</td>
                         <td>mike.hunt@server.com</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -148,7 +172,7 @@
                         <th scope="row">10</th>
                         <td>Steve</td>
                         <td>steve_boss@corp.org</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Inactive</td>
                     </tr>
                     <tr>
@@ -162,7 +186,7 @@
                         <th scope="row">12</th>
                         <td>Paul</td>
                         <td>paul_walker@live.com</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -176,7 +200,7 @@
                         <th scope="row">14</th>
                         <td>Harry</td>
                         <td>harry.potter@hogwarts.com</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -197,7 +221,7 @@
                         <th scope="row">17</th>
                         <td>Lara</td>
                         <td>lara.jones@gmail.com</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -211,7 +235,7 @@
                         <th scope="row">19</th>
                         <td>Ivy</td>
                         <td>ivy.ray@live.com</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Inactive</td>
                     </tr>
                     <tr>
@@ -225,7 +249,7 @@
                         <th scope="row">21</th>
                         <td>Grace</td>
                         <td>grace.white@example.com</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Pending</td>
                     </tr>
                     <tr>
@@ -239,7 +263,7 @@
                         <th scope="row">23</th>
                         <td>Jasmine</td>
                         <td>jas.smith@mail.org</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -260,7 +284,7 @@
                         <th scope="row">26</th>
                         <td>Tim</td>
                         <td>tim.cook@apple.com</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -274,7 +298,7 @@
                         <th scope="row">28</th>
                         <td>Dan</td>
                         <td>dan.ross@site.net</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -288,7 +312,7 @@
                         <th scope="row">30</th>
                         <td>Bruce</td>
                         <td>bruce.wayne@batmail.com</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -309,7 +333,7 @@
                         <th scope="row">33</th>
                         <td>Sophia</td>
                         <td>sophia.grace@outlook.com</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -330,7 +354,7 @@
                         <th scope="row">36</th>
                         <td>Jack</td>
                         <td>jack.sparrow@pirates.org</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Inactive</td>
                     </tr>
                     <tr>
@@ -344,7 +368,7 @@
                         <th scope="row">38</th>
                         <td>Gary</td>
                         <td>gary.oak@poke.net</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -358,7 +382,7 @@
                         <th scope="row">40</th>
                         <td>Leon</td>
                         <td>leon_kennedy@racoon.org</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -372,7 +396,7 @@
                         <th scope="row">42</th>
                         <td>Jeff</td>
                         <td>jeff.bezos@space.org</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Inactive</td>
                     </tr>
                     <tr>
@@ -386,7 +410,7 @@
                         <th scope="row">44</th>
                         <td>Fred</td>
                         <td>fred_flint@stone.com</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -400,7 +424,7 @@
                         <th scope="row">46</th>
                         <td>Arnold</td>
                         <td>arnold_s@muscle.com</td>
-                        <td>Moderator</td>
+                        <td>Guest</td>
                         <td>Active</td>
                     </tr>
                     <tr>
@@ -428,7 +452,7 @@
                         <th scope="row">50</th>
                         <td>Peter</td>
                         <td>peter.parker@dailybugle.com</td>
-                        <td>Administrator</td>
+                        <td>Admin</td>
                         <td>Active</td>
                     </tr>
                 </tbody>
@@ -436,7 +460,7 @@
         </div>
     </div>
     
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
